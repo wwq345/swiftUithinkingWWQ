@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B345622286D95E8007E32F6 /* AdvancedCombineBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B345621286D95E8007E32F6 /* AdvancedCombineBootcamp.swift */; };
 		1BE0A31C282500D900EBB770 /* SwiftuiThinkingWWQApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE0A31B282500D900EBB770 /* SwiftuiThinkingWWQApp.swift */; };
 		1BE0A31E282500D900EBB770 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE0A31D282500D900EBB770 /* ContentView.swift */; };
 		1BE0A320282500DC00EBB770 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BE0A31F282500DC00EBB770 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B345621286D95E8007E32F6 /* AdvancedCombineBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedCombineBootcamp.swift; sourceTree = "<group>"; };
 		1BE0A318282500D900EBB770 /* SwiftuiThinkingWWQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftuiThinkingWWQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BE0A31B282500D900EBB770 /* SwiftuiThinkingWWQApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftuiThinkingWWQApp.swift; sourceTree = "<group>"; };
 		1BE0A31D282500D900EBB770 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 				1BE0A31D282500D900EBB770 /* ContentView.swift */,
 				1BE0A31F282500DC00EBB770 /* Assets.xcassets */,
 				1BE0A321282500DC00EBB770 /* Preview Content */,
+				1B345621286D95E8007E32F6 /* AdvancedCombineBootcamp.swift */,
 			);
 			path = SwiftuiThinkingWWQ;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			files = (
 				1BE0A31E282500D900EBB770 /* ContentView.swift in Sources */,
 				1BE0A31C282500D900EBB770 /* SwiftuiThinkingWWQApp.swift in Sources */,
+				1B345622286D95E8007E32F6 /* AdvancedCombineBootcamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
