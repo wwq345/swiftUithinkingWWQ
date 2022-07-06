@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftuiThinkingWWQApp: App {
     var body: some Scene {
         WindowGroup {
-            DownloadImageAsync()
+            TaskBootCampHomeView()
         }
     }
 }
