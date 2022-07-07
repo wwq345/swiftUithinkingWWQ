@@ -27,16 +27,18 @@ class TaskGroupBootCampDataManager {
             "https://picsum.photos/200/300",
             "https://picsum.photos/200/300"
         ]
-        return try await withThrowingTaskGroup(of: UIImage.self) { group in
+        return try await withThrowingTaskGroup(of: UIImage?.self) { group in
             var images:[UIImage] = []
             images.reserveCapacity(urlString.count)
             for string in urlString {
                 group.addTask {
-                    try await self.fetchImage(urlString: string)
+                    try? await self.fetchImage(urlString: string)
                 }
             }
-            for try await taskResult in group {
-                images.append(taskResult)
+            for try await image in group {
+                if let image = image {
+                    images.append(image)
+                }
             }
             return images
         }
